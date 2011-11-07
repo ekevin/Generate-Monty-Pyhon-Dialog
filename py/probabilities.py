@@ -12,7 +12,6 @@ Author: Balthazar Rouberol @BaltoRouberol
 License : DWTFYWWI (Do What The Fuck You Want With It) 
 """
 
-import math
 import pickle
 import sys
 from os.path import exists
