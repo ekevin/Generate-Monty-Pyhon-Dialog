@@ -21,11 +21,9 @@ def alphabet(datafile_lines):
     Returns all used characters in a given text
     """
 
-    alph = []
+    alph = set()
     for line in datafile_lines:
-        for letter in line:
-            if letter not in alph:
-                alph.append(letter)
+        alph.update(line)
 
     return sorted(alph)
 
